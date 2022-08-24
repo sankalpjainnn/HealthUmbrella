@@ -1,0 +1,71 @@
+.donate-us-amount .select-amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #297485;
+}
+
+.donate-us-amount .input-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #265C68;
+}
+
+.donate-us-amount .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    gap:5%;
+}
+
+.donate-us-amount .button{
+    background-color: #2AA3FA;
+    border: none;
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.563rem;
+
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.donate-us-amount .input{
+    width: 335px;
+
+    background: #FFFFFF;
+    opacity: 0.6;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    padding-left: 50px;
+    
+    color: #000000;
+    margin: 0;
+
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}

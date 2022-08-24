@@ -1,0 +1,222 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.for123 .outer-card{
+    width: 55vw;
+    height: 100vh;
+    padding: 10vh 4%;
+    padding-bottom: 0;
+    
+   
+}
+
+.for123 .form{
+    width: 42vw;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    
+}
+
+.for123 .forgotPassword{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 55px;
+    margin-bottom: -10px;
+    color: #000000;
+}
+
+.for123 .form .fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.for123 .form .fields img{
+    height: 8vh;
+    aspect-ratio: 1/1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.for123 .form .fields input{
+    
+    width: 50%;
+    height: 50.5%;
+    margin: auto;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: white;
+    text-align: center;
+    align-self: left;
+    margin-left: 0px;
+}
+
+.for123 button {
+    display: block;
+    background: #3CBBF3;
+    border-radius: 14px;
+    width: 30%;
+    height: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.for123 button:hover{
+    background: #1245EF;
+}
+
+
+    
+
+@media only screen and (max-width: 1350px){
+    .for123 .forgotPassword{
+        font-size: 36px;
+    }
+    .for123 .form .fields input{
+    
+        width: 46%;
+        height: 46%;
+        font-size: 15px;
+       }
+       .for123 .form .fields img{
+        height: 6.7vh;
+        aspect-ratio: 1/1;
+       }
+       .for123 button{
+        width: 28%;
+        height: 9%;
+        font-size: 14px;
+       }
+}
+
+@media only screen and (max-width: 1150px){
+    .for123 .forgotPassword{
+        font-size: 34px;
+    }
+    .for123 .form .fields input{
+    
+        width: 45%;
+        height: 44%;
+        font-size: 13px;
+       
+    }
+
+    .for123 .form .fields img{
+        height: 6.3vh;
+        aspect-ratio: 1/1;
+       }
+
+    .for123 button{
+        width: 27%;
+        height: 9%;
+        font-size: 13;
+       }
+}
+
+
+
+@media only screen and (max-width: 1060px){
+
+    .for123 .forgotPassword{
+        font-size: 30px;
+    }
+    .for123 .form .fields input{
+    
+        width: 42%;
+        height: 43%;
+        font-size: 11px;
+       
+    }
+
+    .for123 .form .fields img{
+        height: 6vh;
+        aspect-ratio: 1/1;
+       }
+
+    .for123 button{
+        width: 28%;
+        height: 9%;
+        font-size: 13px;
+       }
+}
+
+@media only screen and (max-width: 900px){
+    .for123 .forgotPassword{
+        font-size: 29px;
+    }
+    .for123 .form .fields input{
+    
+        width: 41%;
+        height: 41%;
+        font-size: 10px;
+       
+    }
+
+    .for123 .form .fields img{
+        height: 5.65vh;
+        aspect-ratio: 1/1;
+       }
+
+    .for123 button{
+        width: 29%;
+        height: 8.5%;
+        font-size: 12px;
+       }
+}
+
+
+@media only screen and (max-width: 780px){
+    .form{
+        width: auto;
+    }
+    .forgotPassword{
+        font-size: 36px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .outer-card{
+        width: 100vw;
+    }
+    .form .fields input{
+    
+        width: 46%;
+        height: 46%;
+        font-size: 15px;
+       }
+       .form .fields img{
+        height: 6.7vh;
+        aspect-ratio: 1/1;
+       }
+       button{
+        width: 28%;
+        height: 9%;
+        font-size: 14px;
+       }
+}
+
+@media only screen and (max-width: 590px){
+    .forgotPassword{
+        font-size: 25px;
+    }
+}

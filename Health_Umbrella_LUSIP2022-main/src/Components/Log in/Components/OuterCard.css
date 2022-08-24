@@ -1,0 +1,18 @@
+/* .prabhav *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.prabhav .outer-card{
+    width: 55vw;
+    height: 100vh;
+    padding: 10vh 4%;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 780px){
+ .prabhav .outer-card{
+        width: 100vw;
+    }
+}

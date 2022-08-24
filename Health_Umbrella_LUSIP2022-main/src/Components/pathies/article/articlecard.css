@@ -1,0 +1,133 @@
+.card {
+    margin: 4% 4%;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.04);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 645px;
+    max-height: 419.62px;
+    height: auto;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.Logo {
+    margin: 15%;
+    margin-bottom: 6%;
+}
+
+.logoimg {
+    width: 217px;
+    height: 74.74px;
+}
+
+.article_details {
+    margin-left: 11%;
+    margin-right: 5%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 6px;
+}
+
+.redirect {
+    margin: 8%;
+    margin-left: 80%;
+    width: 28px;
+    height: 28px;
+}
+
+ @media screen and (max-width: 1518px) {
+    .patient_name {
+
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 42px;
+    } 
+
+    /* .identity_name {
+        margin-right: 5%;
+        height: 80.45px;
+
+    } */
+
+    /* .patient_img {
+        width: 80px;
+        height: 80.16px;
+    } */
+
+     .inner_text {
+        line-height: 34px;
+
+    }
+
+    .patient_card_btn {
+        margin-left: -71px;
+        margin-right: 2%;
+    }
+
+    .rating {
+        margin: -3%;
+
+    }
+} 
+
+@media screen and (max-width: 1198px) {
+    .card {
+        margin-left: 18%;
+    }
+    .article_details{
+        font-size:16px ;
+    }
+    .logoimg {
+        width: 200px;
+        height: 60.74px;
+    }
+    .redirect_img {
+        width: 26px;
+        height: 26px;
+    }
+} 
+
+@media screen and (max-width: 911px) {
+    .card {
+        margin-left: 14%;
+
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .card {
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+}
+
+
+@media screen and (max-width: 671px) {
+    /* .patient_name {
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+    } */
+
+
+
+
+    .inner_text {
+        line-height: 30px;
+
+    }
+
+
+    .rating {
+        margin: -3%;
+
+    }
+}

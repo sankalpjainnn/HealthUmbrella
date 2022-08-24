@@ -1,0 +1,18 @@
+.container_home{
+    height: fit-content;
+    background-color: rgba(231, 252, 255, 1);
+}
+
+.container_background{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.ellipse{
+    background-image: url('./ellipse1.png'),url('./ellipse2.png');
+    background-repeat: no-repeat,no-repeat;
+    /*first horizontal then vertical*/
+    background-size: 58% 150%,20% 35%;
+    background-position: left top,right top; 
+}

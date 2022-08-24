@@ -1,0 +1,113 @@
+.left_side_article{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.container_logocard{
+    margin-bottom: 20px;
+}
+.right_side_article{
+    width: 50%;
+
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+.top_article{
+    display: flex;
+    width: 100%;
+}
+.logo_article{
+    display: flexbox;
+    justify-content: right;
+    max-width: 162px;
+    text-align: right;
+}
+
+/* ----------------------------------*/
+
+.container_articles{
+    max-width: auto;
+    /* min-height: fit-content; */
+    padding-bottom:  30px;
+    /* background-image: url(./Ellipse\ 4.png);
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-color: linear-gradient(358.71deg, #C0EDF0 1%, rgba(203, 239, 242, 0.729167) 27.49%, rgba(210, 241, 243, 0.536458) 46.33%, rgba(220, 243, 244, 0.291667) 70.28%, #E6F6F6 98.81%); */
+}
+
+.article{
+    width: fit-content;
+}
+
+.gridcontainer_articles{
+    margin-top: 50px;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /* width: fit-content; */
+}
+
+
+
+
+/* Responsive Design */
+@media  screen and (max-width: 1117px) {
+    .container_pathies{
+        mix-blend-mode: normal;
+        background-image: none;
+    }
+    .paths_container{
+        flex-direction: column-reverse;
+        width: fit-content;
+        margin: auto;
+    }
+    .gridcontainer_articles{
+        gap: 5rem;
+        /* width: fit-content; */
+    }
+    
+}
+@media  screen and (max-width: 907px){
+    .paths_container{
+        flex-direction: column-reverse;
+        width: fit-content;
+        margin: 50px;
+    }
+    .path{
+        margin: 5px;
+    }
+    .gridcontainer_articles{
+        gap: 25px;
+        
+    }
+}
+@media  screen and (max-width: 775px){
+    .paths_container{
+        flex-direction: column-reverse;
+        width: fit-content;
+        margin: 50px;
+    }
+    .path{
+        margin: 5px;
+    }
+    .gridcontainer_articles{
+        gap: 25px;
+        flex-direction: column-reverse;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+}
+

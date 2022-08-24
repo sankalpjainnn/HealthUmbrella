@@ -1,0 +1,25 @@
+.container_articles{
+    height: fit-content;
+    background-color: rgba(231, 252, 255, 1);
+    
+}
+
+.containerarticle_background{
+    height: fit-content;
+    /* display: flex;
+    flex-direction: column; */
+    
+    width: 100%;
+    min-height: 600px;
+}
+
+.ellipseArticle{
+    background-image: url('./ellipse1.png'),url('./ellipse2.png');
+    background-repeat: no-repeat,no-repeat;
+    /*first horizontal then vertical*/
+    background-size: 58% 100%,30% 55%;
+    background-position: left top,right top; 
+
+    display: flex;
+    flex-direction: row;
+}

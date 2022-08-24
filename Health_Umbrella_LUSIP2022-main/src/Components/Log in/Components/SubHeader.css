@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* .prabhav *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+ .Prabhavsub-header-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+ .Prabhavsub-header-container .Prabhavheader{
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    margin-left: 12%;
+    
+    
+   
+}
+
+ .Prabhavsub-header-container .Prabhavheader .Prabhavoption{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #06C1F3;
+    text-transform: uppercase;
+    padding: 2px;
+   
+   
+}
+
+
+ .Prabhavsub-header-container .Prabhavheader .Prabhavactive{
+    color: #000000;
+    border-bottom: 5px solid #1245EF;
+    
+}
+
+ .Prabhavsub-header-container .Prabhavsub-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ACACAC;
+    padding-left: 85px;
+    
+   
+}
+
+@media only screen and (max-width: 1120px){
+     .Prabhavsub-header-container .Prabhavsub-heading{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+     .Prabhavsub-header-container .Prabhavsub-heading{
+        width: 100vw;
+        margin: auto; 
+        font-size: 20px;
+    }
+}

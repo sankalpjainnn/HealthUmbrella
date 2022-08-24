@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* .prabhav *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+ .Prabhavcontainer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+ .Prabhavcontainer .Prabhavlogo{
+    height: 100%;
+}
+
+ .Prabhavcontainer .Prabhavlogo img{
+    height: 100%;
+}
+
+ .Prabhavcontainer .Prabhavtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2EA2F9;
+    
+}
+
+@media only screen and (max-width: 1350px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 30px;
+    }
+     .Prabhavcontainer{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 590px){
+     .Prabhavcontainer .Prabhavtitle{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,110 @@
+.article_cont {
+    height: fit-content;
+    width: 95%;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #E1E7EE 0%, #FFFFFF 100%, #FFFFFF 100%);
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    margin: 0% 3%;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    margin-top: 82px;
+
+    align-items: center;
+
+}
+
+#Heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.view_more {
+    color: #551AFB;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 88%;
+    text-decoration: none;
+}
+
+.slider {
+    margin: 30px;
+}
+
+ @media screen and (max-width: 1518px) {
+    .patient_name {
+
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    /* .identity_name {
+        margin-right: 5%;
+        height: 80.45px;
+
+    } */
+
+    /* .patient_img {
+        width: 80px;
+        height: 80.16px;
+    } */
+
+    /* .inner_text {
+        line-height: 34px;
+
+    } */
+
+    /* .patient_card_btn {
+        margin-left: -71px;
+        margin-right: 2%;
+    } */
+
+    .rating {
+        margin: -3%;
+
+    } 
+}
+
+
+@media screen and (max-width: 1518px) {
+    .view_more {
+        margin-left: 85%;
+
+    }
+
+     /* .testimonial_cont {
+        width: 90%;
+
+    } */
+}  
+
+ @media screen and (max-width: 1119px) {
+    .view_more {
+        margin-left: 80%;
+
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .view_more {
+        margin-left: 75%;
+
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .view_more {
+        margin-left: 70%;
+
+    }
+} 

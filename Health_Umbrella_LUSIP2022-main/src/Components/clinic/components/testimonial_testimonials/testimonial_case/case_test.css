@@ -1,0 +1,260 @@
+.clinicCard {
+
+    background: linear-gradient(180deg, rgba(212, 248, 255, 0.885683) 8.85%, #D4F8FF 23.44%, rgba(212, 248, 255, 0.0416667) 99.99%, rgba(212, 248, 255, 0) 100%);
+
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    height: 662px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 8%;
+}
+.clinicCardAlt{
+    background: linear-gradient(180deg, #D4F8FF 0%, rgba(212, 248, 255, 0) 100%);
+    background-color: #FFFFFF;
+
+    align-items: center;
+    justify-content: center;
+    height: 662px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.caseDets {
+    width: 50%;
+    margin: 3.5%;
+    top: 0%;
+}
+
+.clinicIdentity {
+    display: flex;
+    margin: 4%;
+}
+
+
+.clinicRect {
+    height: 23.433530807495117px;
+    width: 44.35995864868164px;
+    border-radius: 0px;
+    margin-top: 3%;
+
+}
+
+
+
+.clinic1Name {
+
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    color: #43578B;
+    margin-left: 3%;
+
+}
+
+.clinicCase {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #676767;
+    ;
+
+}
+
+.main_img {
+    width: 89px;
+    height: 90.16px;
+    top: 30.92px;
+    margin: 1%;
+    margin-left: 5%;
+
+}
+
+.clinicTimeline {
+    display: flex;
+    margin: 4%;
+}
+
+.clinicIdImg {
+    height: 53px;
+    width: 108px;
+}
+
+.clinicId {
+    margin: 1%;
+    font-weight: 400;
+    font-size: 19.75px;
+    line-height: 17.63px;
+    color: #787373;
+    margin-left: 19px;
+}
+
+.clinicTitle {
+    display: flex;
+    margin: 4%;
+}
+
+.titleImg {
+    height: 39px;
+    width: 45px;
+}
+
+.titleText {
+    width: fit-content;
+    margin: 1%;
+    font-weight: 300;
+    font-size: 19.75px;
+    line-height: 17.63px;
+    color: #787373;
+    margin-left: 10px;
+}
+
+.clinic1Dets {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin: 4%;
+
+}
+
+.clinicCardFooter {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-left: 13%;
+    margin-left: 2%;
+}
+
+
+.clinicrating {
+    margin: -3%;
+    width: 155px;
+    height: fit-content;
+}
+
+.mainImgDiv {
+    width: 50%;
+}
+
+.clinic1Img {
+    width: 70%;
+    height: 80%;
+    margin: 8.5%;
+    margin-left: 19%
+}
+
+@media screen and (max-width: 986px) {
+
+    .clinic1Dets {
+        font-size: 17px;
+        line-height: 23px;
+
+    }
+}
+@media screen and (max-width: 764px) {
+    .clinic1Img {
+        width: 60%;
+        height: 70%;
+
+        margin-top: 19%
+    }
+    .clinicCard {
+        flex-direction: column-reverse;
+    }
+
+    .clinicCardAlt {
+        flex-direction: column-reverse;
+    }
+    .clinicIdentity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    .clinicTimeline {
+        display: flex;
+        margin-top: 1%;
+    }
+    .clinicTitle {
+        display: flex;
+        margin-top: 1%;
+    }
+    .clinicRect {
+        margin-top: 1%;
+    }
+    .caseDets {
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    .clinic1Name {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .clinic1Dets {
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .clinicIdImg {
+        height: 30.735382080078125px;
+        width: 40.945499420166016px;
+    }
+
+    .clinicId {
+
+        font-size: 17.75px;
+        line-height: 15.63px;
+
+    }
+    .mainImgDiv {
+        width: 90%;
+        height: 50%;
+
+    }
+
+    /* .clinicTimeline {
+justify-content: center;
+    } */
+}
+@media screen and (max-width: 584px) {
+
+
+    .clinic1Name {
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .clinic1Dets {
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .clinicIdImg {
+        height: 30.735382080078125px;
+        width: 40.945499420166016px;
+    }
+
+    .clinicId {
+
+        font-size: 17.75px;
+        line-height: 15.63px;
+
+    }
+    .mainImgDiv {
+        width: 90%;
+        height: 50%;
+
+    }
+}

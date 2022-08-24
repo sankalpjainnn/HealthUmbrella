@@ -1,0 +1,43 @@
+.container_logocard{
+    height: fit-content;
+    width: fit-content;
+}
+
+.card_logo{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+
+    max-height: 58px;
+    max-width: 322px;
+    width: 322px;
+    height: 58px;
+}
+.logo_div{
+
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 2%;
+    margin-right: 2%;
+} 
+.logo{
+    
+    height: 70%;
+}
+
+.textWrap{
+    display: flex;
+    justify-content: center;
+    
+    margin: 5px;
+}
+.textLogo{
+    text-align: left;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 19.1851px;
+    line-height: 29px;
+}

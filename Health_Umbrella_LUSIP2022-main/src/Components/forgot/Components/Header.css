@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.for123 .container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    margin-left: 0vw;
+    margin-bottom: 10vw;
+    margin-top: 35vw;
+    
+}
+
+.for123 .container .logo{
+    height: 100%;
+}
+
+.for123 .container .logo img{
+    height: 100%;
+}
+
+.for123 .container .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2EA2F9;
+    
+}
+
+@media only screen and (max-width: 1350px){
+    .for123 .container .title{
+        font-size: 30px;
+    }
+    .for123 .container{
+        position: absolute;
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .for123 .container .title{
+        font-size: 27px;
+    }
+    .for123 .container{
+        position: absolute;
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    .for123 .container .title{
+        font-size: 22px;
+    }
+    .for123 .container{
+        position: absolute;
+        top: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .for123 .container .title{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .for123 .container .title{
+        font-size: 30px;
+    }
+    .for123 .container{
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .for123 .container .title{
+        font-size: 25px;
+    }
+}

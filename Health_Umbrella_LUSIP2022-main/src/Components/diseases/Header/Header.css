@@ -1,0 +1,137 @@
+.diseases_ishaan .header {
+    height: auto;
+    width: 100%;
+    /* background-color: #D1FAFF87; */
+    background-image: url(./images/background_image_eclipse1.png), url(./images/background_image_eclipse2.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 58% 140%,20% 35%;
+
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 100px ;
+}
+@media (max-width: 500px){
+    .diseases_ishaan .home .header{
+        background-position: left bottom, right top;
+        background-size: 58% 80%,50% 50%;
+    }
+}
+.diseases_ishaan .header_intro {
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+.diseases_ishaan .header_intro .left{
+    width: 40%;
+    /* padding-right: 10%;
+    padding-top: 15%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}   
+.diseases_ishaan .header_intro .left h1{
+    font-size: 100px;
+    font-weight: 400;
+    font-family: "poppins";
+}
+.diseases_ishaan .header_intro .right{
+    width: 60%;
+    /* height: 600px; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.diseases_ishaan .header .header_intro .animated-button{
+    margin-top: 30px;
+    width: 160px;
+    height: 48px;
+    border-radius: 10px;
+}
+.diseases_ishaan .header .header_intro .animated-button button{
+    width: 160px;
+    height: 48px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1fbde8;
+    position: absolute;
+    z-index: 2;
+}
+.diseases_ishaan .header .header_intro .animated-button .background{
+    width: 160px;
+    height: 48px;
+    background-color: #38AECF;
+    border-radius: 10px;
+    position:relative;
+    transition: transform .1s ease-in-out;
+    z-index: 1;
+}
+.diseases_ishaan .header .header_intro .animated-button:hover .background{
+    transform: rotate(-3deg) scale(1.02) translate(3px, 0px);
+}
+.diseases_ishaan .header_intro .right .background{
+    display: flex;
+    justify-content: center;
+}
+.diseases_ishaan .header_intro .right .background img{
+    height: 80%;
+    margin-right: 50px;
+}
+
+@media  (max-width: 1120px) {
+    .diseases_ishaan .header_intro .left h1{
+        font-size: 80px;
+    }
+    /* .diseases_ishaan .header_intro .right .background img{
+        width: 500px;
+    } */
+
+}
+
+@media (min-width: 575px) and (max-width: 1025px){
+    .diseases_ishaan .header_intro {
+        height: 400px;
+    }
+    .diseases_ishaan .header .left{
+        margin-left: 75px;
+    }
+    .diseases_ishaan .header_intro .left h1{
+        font-size: 70px;
+    }   
+    /* .diseases_ishaan .header_intro .right .background img{
+        width: 400px;
+        margin-top: 50px;
+    } */
+}
+@media screen and (max-width: 900px){
+    .diseases_ishaan .header_intro {
+        height: 350px;
+    }
+    .diseases_ishaan .header_intro .left{
+        width: 98%;
+        /* text-align: center; */
+        margin: 0px;
+    }
+    .diseases_ishaan .header_intro .left h1{
+        text-align: center;
+    }
+    .diseases_ishaan .header_intro .left .animated-button{
+        margin-left: 20%;
+    }
+    .diseases_ishaan .header_intro .right{
+        display: none;
+    }  
+}
+
+@media (max-width: 574px){
+    .diseases_ishaan .header_intro {
+        height: 300px;
+    }  
+    .diseases_ishaan .header_intro .left h1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.for123 .btn{
+    border: 1px solid #CFCDCD;
+    border-radius: 9px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+}
+
+.for123 .btn .img{
+    height: 100%;
+}
+
+.for123 .btn .img img{
+    height: 100%;
+}
+
+.for123 .btn .content{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #9E9898;
+
+}
+
+.for123 .btn:hover{
+    background-color: #f5f5f5;
+    color: darkgray;
+}
+
+@media only screen and (max-width: 550px){
+    .for123 .btn .img img{
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .for123 .btn .content{
+       font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .for123 .btn .content{
+       font-size: 10px;
+    }
+}

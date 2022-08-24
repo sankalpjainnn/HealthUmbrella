@@ -1,0 +1,15 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+} */
+
+.for123 .outer-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #D8EFFF 0%, #DEEFFB 99.99%, #0396FF 100%);
+    gap: 10%;
+   
+}

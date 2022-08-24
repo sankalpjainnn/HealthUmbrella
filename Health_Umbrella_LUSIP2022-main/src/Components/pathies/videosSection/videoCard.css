@@ -1,0 +1,175 @@
+.pathyCard {
+    margin: 4% 4%;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.04);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 645px;
+    max-height: 419.62px;
+    height: 419.62px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+
+.Thumbnail {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.thumbnailimg {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.vidTit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8% 4%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.vidDesc {
+    margin-left: 11%;
+    margin-right: 5%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 6px;
+    margin-bottom: -1.7%;
+    margin-top: 0.3%;
+}
+
+.card_footer {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-left: 13%;
+    margin-left: 2%
+}
+.Redirect_Btn {
+    background-color: #54B6FF;
+    color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 119px;
+    height: 36px;
+    /* margin-left: 6px;
+    margin-right: 2%; */
+}
+
+.rating_img {
+    margin: -3%;
+    width: 155px;
+    height: 51px;
+}
+
+ @media screen and (max-width: 1518px) {
+  
+    .vidTit{
+        font-size: 18px; ;
+
+    }
+     .vidDesc{
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+    .patient_card_btn {
+        margin-left: -71px;
+        margin-right: 2%;
+    }
+
+    .rating {
+        margin: -3%;
+
+    }
+} 
+
+ @media screen and (max-width: 1198px) {
+    .card {
+        margin-left: 18%;
+    }
+} 
+
+ @media screen and (max-width: 911px) {
+    .card {
+        margin-left: 14%;
+
+    }
+    .vidTit{
+        font-size: 17px; ;
+
+    }
+     .vidDesc{
+        font-size: 15px;
+        line-height: 19px;
+
+    }
+} 
+
+@media screen and (max-width: 911px) {
+    .card {
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+} 
+
+
+@media screen and (max-width: 671px) {
+
+
+    .identity_name {
+        margin-right: 5%;
+        height: 75px;
+
+    } 
+    .vidTit{
+        font-size: 15px; ;
+
+    }
+     .vidDesc{
+        font-size: 13px;
+        line-height: 17px;
+
+    }
+
+
+    .inner_text {
+        line-height: 30px;
+
+    }
+
+
+
+    .rating {
+        margin: -3%;
+
+    }
+} 
+
+@media screen and (max-width: 649px) {
+    .patient_img {
+        width: 70px;
+        height: 70.16px;
+    }
+}

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #E6F6F6;
+    font-family: 'Poppins';
+}
+
+
+
+.card {
+    margin: 4% 4%;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.04);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 645px;
+    max-height: 419.62px;
+    height: 419.62px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.identity {
+    display: flex;
+    margin-top: 1%;
+}
+
+.inner_identity {
+    display: flex;
+}
+
+.inner_rect {
+    width: 34px;
+    height: 17px;
+    margin-top: 5%;
+    margin-left: 0%;
+
+}
+
+.patient_name {
+    margin-left: 2%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    color:
+        #43578B;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.identity_name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    width: 391px;
+    height: 90.45px;
+    background-color: #D9D9D9;
+    border-radius: 3px;
+}
+
+.inner_text {
+    color: #AAAAAA;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 2%
+}
+
+.patient_img {
+    width: 89px;
+    height: 90.16px;
+    top: 30.92px;  
+    margin: 1%;
+    margin-left: 5%;
+
+}
+
+.timeline {
+    display: flex;
+    margin-top: 1%;
+    margin-left: -30%;
+}
+
+.patient {
+    height: 35.735382080078125px;
+    width: 45.945499420166016px;
+
+}
+
+.timeline_text {
+    margin: 1%;
+    font-weight: 400;
+    font-size: 19.75px;
+    line-height: 29.63px;
+    color: #787373;
+    margin-left: 19px;
+}
+
+.title {
+    display: flex;
+    margin-left: -36%;
+    margin-top: 1%;
+}
+
+.pateienttitleimg {
+    height: 35.0501708984375px;
+    width: 56.2125358581543px;
+}
+
+.title_text {
+    width: fit-content;
+    margin: 1%;
+    font-weight: 300;
+    font-size: 19.75px;
+    line-height: 29.63px;
+    color: #787373;
+    margin-left: 10px;
+}
+
+.patient_details {
+    margin-left: 11%;
+    margin-right: 5%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 6px;
+    word-wrap: normal;
+}
+
+.card_footer {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-left: 13%;
+    margin-left: 2%;
+}
+
+
+.patient_card_btn {
+    background-color: #54B6FF;
+    color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 119px;
+    height: 36px;
+    /* margin-left: 1%;
+    margin-right: -36%; */
+}
+
+.rating {
+    margin: -3%;
+    width: 155px;
+    height: fit-content;
+}
+
+
+ 
+@media screen and (max-width: 1518px) {
+    .card {
+        margin: auto;
+    }
+
+    .patient_name {
+
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .identity_name {
+        margin-right: 5%;
+        height: 80.45px;
+
+    }
+
+    .patient_img {
+        width: 80px;
+        height: 80.16px;
+    }
+
+    .inner_text {
+        line-height: 34px;
+
+    }
+
+    .patient_card_btn {
+        margin-left: -71px;
+        margin-right: 2%;
+    }
+
+    .rating {
+        margin: -3%;
+
+    }
+} 
+
+@media screen and (max-width: 1198px) {
+    .card {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .card {
+        margin: auto;
+
+    }
+}
+
+ @media screen and (max-width: 911px) {
+    .card {
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .patient_name {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .identity_name {
+        margin-right: 10%;
+        height: 75px;
+
+    }
+
+    .patient_details {
+        margin-right: 10%;
+    }
+
+    .patient_img {
+        width: 78px;
+        height: 78.16px;
+    }
+
+    .inner_text {
+        line-height: 30px;
+
+    }
+
+    .patient_card_btn {
+        margin-left: -71px;
+        margin-right: 2%;
+    }
+
+    .rating {
+        margin: -3%;
+
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .patient_img {
+        width: 70px;
+        height: 70.16px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .view_more {
+        margin-left: 75%;
+
+    }
+
+    .identity_name {
+        margin-right: 26%;
+        height: 71.45px;
+    }
+
+    .patient_name {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .inner_text {
+        line-height: 27px;
+    }
+
+    .inner_rect {
+        margin-top: 4%;
+
+    }
+
+    .identity_name {
+        margin-right: 17%;
+    }
+
+    .identity {
+
+        margin-left: 6%;
+
+    }
+
+    .patient_details {
+        margin-right: 16%;
+        font-size: 16px;
+    }
+
+    .patient {
+        height: 30.735382080078125px;
+        width: 40.945499420166016px;
+    }
+
+    .timeline_text {
+        font-size: 17.75px;
+        line-height: 24.63px;
+
+    }
+
+    .pateienttitleimg {
+        height: 30.0501708984375px;
+        width: 51.2125358581543px;
+    }
+
+    .title_text {
+        font-size: 17.75px;
+        line-height: 24.63px;
+    }
+} 

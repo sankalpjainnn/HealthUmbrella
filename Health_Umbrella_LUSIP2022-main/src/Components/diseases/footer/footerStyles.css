@@ -1,0 +1,102 @@
+.Footer-box {
+    background-color: #BBEFF6;
+    margin-bottom: 0px;
+    bottom: 0px;
+}
+
+.FooterWrap {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 38.79px;
+    font-weight: 400;
+}
+
+.unstyled-list {
+    list-style: none;
+    border-left: 1.71041px solid #07A0E1;
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color:
+        #0D2630;
+}
+
+.footerimg {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.footer-logo{
+
+    /* width: 100px;
+    height: 100px; */
+    width: 155%;
+}
+
+.handles {
+    width:  26%;
+    height: 26%;
+    padding: 9px;
+}
+
+.handleWrapper{
+    margin: 2px;
+    margin-left: 0px;
+}
+.facebook{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+@media  screen and (max-width: 1421px) {
+    .footer-logo{
+        width: 100%;
+    }
+
+    .handles {
+        width:  38.43px;
+        height: 38.42px;
+    }
+}
+@media  screen and (max-width: 722px){
+
+    .footer-logo{
+        width: 90%;
+    }
+    .FooterWrap{
+        font-size:  12px;
+        line-height: 21.79px;
+    }
+    .handles {
+        width:  33.43px;
+        height: 32.42px;
+    }
+    .unstyled-list {
+        border-left: 1.31041px solid #07A0E1;
+        padding-left: 8px;
+    }
+}
+@media  screen and (max-width: 546px){
+.footerimg{
+    margin-left: 25px;
+}
+    .footer-logo{
+        width: 60%;
+    }
+    .FooterWrap{
+        font-size:  8px;;
+    }
+    .handles {
+        width:  23.43px;
+        height: 22.42px;
+        padding: 5px;
+        padding-left: 0px;
+    }
+    .unstyled-list {
+        border-left: 1.1041px solid #07A0E1;
+        padding-left: 6px;
+    }
+}

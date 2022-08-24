@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.imagei{
+  height: 200px;
+  width: 200px;
+  
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;  
+  margin: auto;
+  
+}
+
+.Searchi {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+.card{
+  color: black;
+  
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 25px;
+  
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+.sectionii{
+
+    background-image: url("Picture1.png");
+    height: 100%;
+
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+
+.h33{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  font-family: "poppins";
+}
+
+.buttonnews{
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 40px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 100px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pp{
+text-align: center;
+  font-size: 10px;
+  padding-top: 10px;
+  font-family: 'poppins';
+}
+.h22{
+  
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 70px;
+  color: #ffffff;
+
+}
+.btnprop{
+  color: rgba(5, 153, 237, 0.57);
+  text-align: right;
+}
+
+.texttt{
+  padding-top: 100px;
+  margin-left: 80px;
+  margin-right: 900px;
+  margin-bottom: 200px; 
+}
+
+.slidee{
+  margin: 0px 50px 50px 50px;
+}

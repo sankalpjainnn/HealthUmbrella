@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+ 
+
+
+.for123 .shape2 img{
+    height: 15vh;
+    /* border: 2px solid black; */
+    position: absolute;
+    top:0%;
+    right: 0%;
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 1350px){
+    
+    .for123 .shape2 img{
+        height: 13vh;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    
+    .for123 .shape2 img{
+        height: 12vh;
+    }
+    .for123 .sub-header-container .sub-heading{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+   
+    .for123 .shape2 img{
+        height: 11vh;
+    }
+}
+
+@media only screen and (max-width: 900px){
+  
+    .for123 .shape2 img{
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    
+    .for123 .shape2 img{
+        display: none;
+    }
+    .for123 .sub-header-container .sub-heading{
+        width: 100vw;
+        margin: auto; 
+        font-size: 20px;
+    }
+}
+

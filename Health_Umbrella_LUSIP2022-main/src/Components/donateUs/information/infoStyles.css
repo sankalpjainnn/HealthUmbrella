@@ -1,0 +1,138 @@
+.donate-us-info{
+    height:600px;
+    background-color: rgba(189, 230, 250, 0.4);
+}
+
+.donate-us-info .container-background{
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+.donate-us-info .input-div{
+    height: 100%;
+    width: 53.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:  rgba(189, 230, 250, 0.4);
+}
+
+.donate-us-info .input-div .form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    align-items: center;
+}
+
+.donate-us-info .input{
+    width: 80%;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    padding-left: 25px;
+    
+    color: #000000;
+    margin: 0;
+}
+.donate-us-info .form-control{
+    border: 0;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    width: 70%;
+}
+
+.donate-us-info .special-label{
+    display: none;
+}
+
+
+.donate-us-info .right-div{
+    width: 46.5%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap:25px;
+}
+.donate-us-info .img{
+    width: 65%;
+}
+
+.donate-us-info .text-div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8145px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #0D2630;
+}
+
+.donate-us-info .logo-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.donate-us-info .logo{
+    height: 60%;
+}
+
+
+.donate-us-info .button{
+    width: fit-content;
+    height: 48px;
+
+    border-radius: 10px;
+    border-style: none;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7C7272;
+    padding: 10px;
+    
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+.donate-us-info .background-button{
+    margin-top: 30px;
+
+    border: 2px solid #049ac3;
+    background-color: #049ac3;
+    border-radius: 10px;
+    z-index: 1;
+    transition: transform .5s ease-in-out;
+}
+.donate-us-info .button:hover {
+    transform: rotate(5deg) scale(1.02) translate(3px, 0px);
+}

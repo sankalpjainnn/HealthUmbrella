@@ -1,0 +1,213 @@
+/*-------------------------------------------------------------------------------*/
+.donate_us_info{
+    height:600px;
+    background-color: rgba(189, 230, 250, 0.4);
+}
+
+.donate_us_info .container_background{
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+.donate_us_info .input_div{
+    height: 100%;
+    width: 53.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:  rgba(189, 230, 250, 0.4);
+}
+
+.donate_us_info .input_div .form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    align-items: center;
+}
+
+.donate_us_info .input{
+    width: 80%;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    padding-left: 25px;
+    
+    color: #000000;
+    margin: 0;
+}
+.donate_us_info .form{
+    border: 0;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    width: 70%;
+}
+
+.donate_us_info .special-label{
+    display: none;
+}
+
+
+.donate_us_info .right_div{
+    width: 46.5%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap:25px;
+}
+.donate_us_info .img{
+    width: 65%;
+}
+
+.donate_us_info .text_div{
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8145px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #0D2630;
+}
+
+.donate_us_info .logo_div{
+    display: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.donate_us_info .logo{
+    height: 60%;
+}
+
+
+.animated_button{
+    margin-top: 30px;
+    width: 180px;
+    height: 48px;
+    border-radius: 10px;
+}
+.button{
+    width: 180px;
+    height: 48px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family:'Poppins';
+    color: #1fbde8;
+    position: absolute;
+    z-index: 2;
+}
+.animated_button .background_button{
+    width: 180px;
+    height: 48px;
+    background-color: #38AECF;
+    border-radius: 10px;
+    position:absolute;
+    transition: transform .1s ease-in-out;
+    z-index: 1;
+}
+.animated_button:hover .background_button{
+    transform: rotate(-3deg) scale(1.02) translate(3px, 0px);
+}
+
+/*--------------------------------------------------------------------------------------------*/
+@media  screen and (max-width: 1300px){
+    .donate_us_info{
+        height: 500px;
+    }
+    .donate_us_info .input_div .form{
+        width: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+    .donate_us_info .input{
+        width: 70%;
+    
+        font-size: 20px;
+        line-height: 38px;
+        padding-left: 20px;
+    }
+    .donate_us_info .form{
+        font-size: 20px;
+    }
+    .donate_us_info .text_div{
+        margin: 10px;
+    }
+    
+}
+
+@media  screen and (max-width: 1000px){
+    .donate_us_info .input{
+        width: 70%;
+    
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 15px;
+    }
+    .donate_us_info .form{
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 700px){
+    .donate_us_info .text_div{
+        font-size: 15px;
+    }
+    .donate_us_info .logo_div{
+        gap:15px;
+    }
+    
+    .donate_us_info .logo{
+        height: 50%;
+    }
+    .donate_us_info .right_div{
+        gap:20px;
+    }
+}
+
+@media  screen and (max-width: 500px){
+    .donate_us_info .text_div{
+        font-size: 13px;
+    }
+    .donate_us_info .logo_div{
+        gap:10px;
+    }
+    
+    .donate_us_info .logo{
+        height: 45%;
+    }
+    .donate_us_info .right_div{
+        gap:15px;
+        display: none;
+    }
+    .donate_us_info .input_div{
+        width: 100%;
+    }
+}

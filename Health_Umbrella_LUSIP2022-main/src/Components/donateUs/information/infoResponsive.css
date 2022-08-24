@@ -1,0 +1,83 @@
+@media  screen and (max-width: 1300px){
+    .donate-us-info{
+        height: 500px;
+    }
+    .donate-us-info .input-div .form{
+        width: 100%;
+        gap: 30px;
+    
+    }
+    .donate-us-info .input{
+        width: 70%;
+    
+        font-size: 20px;
+        line-height: 38px;
+        padding-left: 20px;
+    }
+    .donate-us-info .form-control{
+        font-size: 20px;
+    }
+    .donate-us-info .text-div{
+        margin: 10px;
+    }
+    .donate-us-info .button{
+        height: 40px;
+        font-size: 20px;
+
+        padding: 5px;
+        
+    }
+}
+
+@media  screen and (max-width: 1000px){
+    .donate-us-info .input{
+        width: 70%;
+    
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 15px;
+    }
+    .donate-us-info .form-control{
+        width: 70%;
+        font-size: 15px;
+    }
+    .donate-us-info .button{
+        height: 35px;
+        font-size:18px;
+
+        padding: 5px;
+        
+    }
+}
+
+@media  screen and (max-width: 700px){
+    .donate-us-info .text-div{
+        font-size: 15px;
+    }
+    .donate-us-info .logo-div{
+        gap:15px;
+    }
+    
+    .donate-us-info .logo{
+        height: 50%;
+    }
+    .donate-us-info .right-div{
+        gap:20px;
+    }
+}
+
+@media  screen and (max-width: 500px){
+    .donate-us-info .text-div{
+        font-size: 13px;
+    }
+    .donate-us-info .logo-div{
+        gap:10px;
+    }
+    
+    .donate-us-info .logo{
+        height: 45%;
+    }
+    .donate-us-info .right-div{
+        gap:15px;
+    }
+}

@@ -1,0 +1,10 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.for123 .inner-card-container{
+    width: 100%;
+    padding: 20px 0 20px 5%;
+}

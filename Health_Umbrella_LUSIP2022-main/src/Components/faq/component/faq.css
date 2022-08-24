@@ -1,0 +1,184 @@
+.AccordionSectionii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(180deg, #D8FAFF 0%, rgba(231, 252, 255, 0) 100%);
+
+}
+
+.Faqsection {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background: linear-gradient(180deg, rgba(209, 250, 255, 0.53) 65.5%, rgba(206, 250, 255, 0.46) 100%);
+
+}
+
+.Searchii {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+.Containerii {
+    position: relative;
+    top: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.Buttonii {
+
+    align-items: center;
+    background-color: white;
+    border: none;
+    color: #485152;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 26px;
+    border: 1px solid #000000;
+}
+
+.Faq_headii {
+    background: linear-gradient(180deg, rgba(209, 250, 255, 0.53) 65.5%, rgba(206, 250, 255, 0.46) 100%);
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.Faq_headii h1 {
+    font-size: 96px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #0C13BB 0%, rgba(12, 19, 187, 0.565357) 76.18%, rgba(12, 19, 187, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+}   
+
+.Faq_headii h2 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.Faq_headii p {
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Faqimg{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+
+.Wrapii {
+
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.Wrapii h1 {
+    padding: 2rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    ;
+
+}
+
+.Wrapii span {
+    margin-right: 1.5rem;
+}
+.dataItem:hover
+{
+    background-color: lightgray;
+}
+.dataItemm:hover{
+    color: #000000;
+}
+.Dropdownii {
+    position: relative;
+    color: black;
+    width: 100%;
+    height: 2px;
+
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 3rem;
+}
+.faq_answerBox{
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.04);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+.faqHr{
+    opacity: 0.5;
+}
+.dataResult{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.dataResult::-webkit-scrollbar{
+    display: none;
+}
+.Dropdownii p {
+
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* @media (manx-width: 600px){
+    .Faqsection{
+        
+    }
+} */

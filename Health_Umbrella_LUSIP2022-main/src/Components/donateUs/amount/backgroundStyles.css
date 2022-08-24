@@ -1,0 +1,32 @@
+.donate-us-amount{
+    height: fit-content;
+    background-color: rgba(189, 230, 250, 0.4);
+}
+
+.donate-us-amount .container-background{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    gap: 50px;
+}
+
+/* .donate-us-amount .ellipse{
+    background-image: url('./images/Ellipse 2.png'),url('./images/Ellipse 3.png');
+    background-repeat: no-repeat,no-repeat;
+
+    background-size: 58% 150%,150% 100%;
+    background-position: left top,top; 
+} */
+
+.donate-us-amount .ellipse{
+    background-image: url('./images/Ellipse 3.png');
+    background-repeat:no-repeat;
+    background-size: 150% 100%;
+    background-position:top; 
+}

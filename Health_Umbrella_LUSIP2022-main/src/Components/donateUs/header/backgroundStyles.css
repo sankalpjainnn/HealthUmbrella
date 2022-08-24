@@ -1,0 +1,20 @@
+.donate-us-header{
+    height: fit-content;
+    background-color: rgba(231, 252, 255, 1);
+}
+
+.donate-us-header .container-background{
+    height: fit-content;
+    display: flex;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.donate-us-header .ellipse{
+    background-image: url('./images/ellipse1.png'),url('./images/ellipse2.png');
+    background-repeat: no-repeat,no-repeat;
+    /*first horizontal then vertical*/
+    background-size: 58% 150%,20% 35%;
+    background-position: left top,right top; 
+}

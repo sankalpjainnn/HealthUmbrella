@@ -1,0 +1,206 @@
+/*---------------------------------------------------------------------------------------------- */
+.donate_us_amount{
+    height: fit-content;
+    background-color: rgba(189, 230, 250, 0.4);
+}
+
+.donate_us_amount .container_background{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    gap: 50px;
+}
+
+/* .donate_us_amount .ellipse{
+    background-image: url('./images/Ellipse 2.png'),url('./images/Ellipse 3.png');
+    background-repeat: no-repeat,no-repeat;
+
+    background-size: 58% 150%,150% 100%;
+    background-position: left top,top; 
+} */
+
+.donate_us_amount .ellipse{
+    background-image: url('./images/Ellipse 3.png');
+    background-repeat:no-repeat;
+    background-size: 150% 100%;
+    background-position:top; 
+}
+
+
+/*---------------------------------------------------------------------------------------------- */
+.donate_us_amount .select_amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #297485;
+}
+
+.donate_us_amount .input_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #265C68;
+}
+
+.donate_us_amount .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    gap:5%;
+}
+
+.donate_us_amount .button{
+    background-color: #2AA3FA;
+    border: none;
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.563rem;
+
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.donate_us_amount .input{
+    width: 335px;
+
+    background: #FFFFFF;
+    opacity: 0.6;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    padding-left: 50px;
+    
+    color: #000000;
+    margin: 0;
+
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+/*---------------------------------------------------------------------------------------------- */
+
+@media  screen and (max-width: 1300px){
+    .donate_us_amount .select_amount{
+        font-size: 2.5rem;
+    }
+    
+    .donate_us_amount .input_text{
+        font-size: 1.5rem;
+    }
+    .donate_us_amount .buttons{
+        width: 90%;
+    }
+    .donate_us_amount .button{
+        font-size: 2.5rem;
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media  screen and (max-width: 1000px){
+    .donate_us_amount .container_background{
+        gap: 25px;
+    }
+    .donate_us_amount .select_amount{
+        font-size: 2.1rem;
+    }
+    
+    .donate_us_amount .input_text{
+        font-size: 1.2rem;
+    }
+    .donate_us_amount .buttons{
+        width: 90%;
+    }
+    .donate_us_amount .button{
+        font-size: 2rem;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media  screen and (max-width: 700px){
+    .donate_us_amount .container_background{
+        gap: 20px;
+    }
+    .donate_us_amount .select_amount{
+        font-size: 1.7rem;
+    }
+    
+    .donate_us_amount .input_text{
+        font-size: 1rem;
+    }
+    .donate_us_amount .buttons{
+        width: 95%;
+    }
+    .donate_us_amount .button{
+        font-size: 1.5rem;
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+    .donate_us_amount .input{
+        width: 50%;
+
+        font-size: 25px;
+        padding-left: 25px;
+
+    }
+}
+
+@media  screen and (max-width: 500px){
+    .donate_us_amount .container_background{
+        gap: 10px;
+    }
+    .donate_us_amount .select_amount{
+        font-size: 1.4rem;
+    }
+    
+    .donate_us_amount .input_text{
+        font-size: 0.8rem;
+    }
+    .donate_us_amount .buttons{
+        width: 95%;
+    }
+    .donate_us_amount .button{
+        font-size: 1rem;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    .donate_us_amount .input{
+        width: 50%;
+
+        font-size: 20px;
+        padding-left: 15px;
+
+    }
+}

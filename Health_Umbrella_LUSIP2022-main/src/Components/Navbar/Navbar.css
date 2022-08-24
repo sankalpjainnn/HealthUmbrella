@@ -1,0 +1,64 @@
+.navbar{
+    padding: 15px;
+    font-size: 1.1em;
+}
+.nav-item{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.navbar-logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.navbar .animated-button button{
+    width: 160px;
+    height: 48px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1fbde8;
+    position: absolute;
+    z-index: 2;
+}
+.navbar .animated-button .background{
+    width: 160px;
+    height: 48px;
+    background-color: #049ac3;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    transition: transform .1s ease-in-out;
+}
+.navbar .animated-button:hover .background{
+    transform: rotate(-3deg) scale(1.02) translate(3px, 0px);
+}
+@media (min-width: 1420px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .dropdown-menu {
+        position: absolute;
+    }
+    .navbar-expand-custom .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom > .container {
+        flex-wrap: nowrap;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}

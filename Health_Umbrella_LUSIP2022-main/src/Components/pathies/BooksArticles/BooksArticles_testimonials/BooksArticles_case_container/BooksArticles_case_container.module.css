@@ -1,0 +1,39 @@
+#Aryan1.readMoreDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    margin-top: -5%;
+    
+}
+#Aryan1.arrowDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 67px;
+    background-color: #07A0E1;
+    border-radius: 100px;
+    
+}
+#Aryan1.testimonialCaseCont{
+    height: fit-content;
+}
+#Aryan1.More{
+    height: 38px;
+    width: 38px;
+}
+#Aryan1.readMore{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+#Aryan1.Less{
+    height: 38px;
+    width: 38px;
+    transform: rotate(180deg);
+}
+

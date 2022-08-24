@@ -1,0 +1,61 @@
+.container_home{
+    height: 1080px;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 1236px;
+    height: 1062px;
+    left: -240px;
+    top: -144px;
+  
+    background-color: #e6f6f6;
+  }
+  
+  .ellipse3 {
+    position: absolute;
+    width: 1091px;
+    height: 1034px;
+    left: 1077px;
+    top: 126px;
+  }
+  
+  .mainImg {
+    position: absolute;
+    width: 796px;
+    height: 602px;
+    left: 996px;
+    top: 239px;
+  }
+  
+  .diseaseHeading {
+    position: absolute;
+    width: 580px;
+    height: 201px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 134px;
+    line-height: 201px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+  
+    margin-top: 388px;
+    margin-left: 192px;
+    /* border: 1px solid #000000; */
+  }
+  
+  .readMore {
+    position: absolute;
+    width: 163.46px;
+    height: 54px;
+  
+    background: #1695ed;
+    border-radius: 8px;
+  
+    margin-top: 735px;
+    margin-left: 440px;
+  }
+  

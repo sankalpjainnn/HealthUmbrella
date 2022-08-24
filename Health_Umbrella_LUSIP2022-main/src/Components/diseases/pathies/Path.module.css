@@ -1,0 +1,133 @@
+.container_path{
+    width: fit-content;
+    display: block;
+    /* position: relative; */
+    padding: 0;
+    max-width: 408px;
+    min-height: fit-content;
+    /* min-height: 583px; */
+
+    background: #FCFCFC;
+    box-shadow: 0px 7px 20px #C2EDF1;
+    border-radius: 24px;
+
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* margin-top: 20vh; */
+}
+.logocontainer_path{
+    max-height: 290px;
+    height: 40%;
+    top:0;
+
+    vertical-align:middle; 
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-height: 150px;
+    padding-top: 11.25%;
+    margin:auto;
+}
+
+.heading_path{
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    margin: auto;
+    text-align: center;
+    /* padding-bottom: 25px; */
+    line-height: 68px;
+}
+
+.data_path{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.card{
+    padding: 8px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+@media  screen and (max-width:1602px) {
+    .heading_path{
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .data_path{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+    }
+    /* .logo{
+        width: 80%;
+    } */
+}
+@media  screen and (max-width:1430px) {
+    .heading_path{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .data_path{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+
+@media  screen and (max-width: 465px) {
+    .heading_path{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .data_path{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 100%;
+    }
+    .container_path{
+        height: 50%;
+    }
+    .logo{
+        padding: 0;
+    }  
+}
+
+@media  screen and (max-width: 387px) {
+    .heading_path{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .data_path{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 100%;
+    }
+    .container_path{
+        height: 40%;
+    }
+    .logo{
+        padding: 0;
+        max-height: 100px;
+    }  
+}

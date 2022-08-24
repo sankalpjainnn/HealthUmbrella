@@ -1,0 +1,67 @@
+.container_pathies{
+    max-width: auto;
+    min-height: fit-content;
+    padding-bottom:  30px;
+    background-image: url(./Ellipse\ 4.png);
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-color: linear-gradient(358.71deg, #C0EDF0 1%, rgba(203, 239, 242, 0.729167) 27.49%, rgba(210, 241, 243, 0.536458) 46.33%, rgba(220, 243, 244, 0.291667) 70.28%, #E6F6F6 98.81%);
+}
+
+.path{
+    width: fit-content;
+}
+
+.paths_container{
+    margin-top: 50px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /* width: fit-content; */
+}
+
+.heading_pathies{
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: 0.14em;
+    border-bottom: 1px solid #000000;
+
+    margin-bottom: 25px;
+}
+
+
+/* Responsive Design */
+@media  screen and (max-width: 1117px) {
+    .container_pathies{
+        mix-blend-mode: normal;
+        background-image: none;
+    }
+    .paths_container{
+        flex-direction: column-reverse;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+@media  screen and (max-width: 465px) {
+    .paths_container{
+        flex-direction: column-reverse;
+        width: fit-content;
+        margin: 50px;
+    }
+    .path{
+        margin: 5px;
+    }
+    .paths_container{
+        gap: 25px;
+    }
+}
